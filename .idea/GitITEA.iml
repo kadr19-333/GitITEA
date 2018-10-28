@@ -5,6 +5,9 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="Lesson_03" />
+    <orderEntry type="module" module-name="004_Examples" />
+    <orderEntry type="module" module-name="004_Examples" />
+    <orderEntry type="module" module-name="Lesson_05" />
   </component>
   <component name="TestRunnerService">
     <option name="PROJECT_TEST_RUNNER" value="Unittests" />

@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$USER_HOME$/Desktop/ITEA курсы/Lesson_04/004_Examples/.idea/004_Examples.iml" filepath="$USER_HOME$/Desktop/ITEA курсы/Lesson_04/004_Examples/.idea/004_Examples.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/GitITEA.iml" filepath="$PROJECT_DIR$/.idea/GitITEA.iml" />
       <module fileurl="file://$USER_HOME$/Desktop/ITEA курсы/Lesson_03/.idea/Lesson_03.iml" filepath="$USER_HOME$/Desktop/ITEA курсы/Lesson_03/.idea/Lesson_03.iml" />
+      <module fileurl="file://$USER_HOME$/Desktop/ITEA курсы/Lesson_05/.idea/Lesson_05.iml" filepath="$USER_HOME$/Desktop/ITEA курсы/Lesson_05/.idea/Lesson_05.iml" />
     </modules>
   </component>
 </project>
