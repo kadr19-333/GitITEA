@@ -56,7 +56,7 @@ def main():
     input_from_user = user_input()
     res = MATH_OPERATION[input_from_user['operation']](input_from_user['num1'], input_from_user['num2'])
     if res:
-        print('Результат:', res)
+        print('Результат:', input_from_user['num1'], input_from_user['operation'], input_from_user['num2'],'=', res)
 
 main()
 
