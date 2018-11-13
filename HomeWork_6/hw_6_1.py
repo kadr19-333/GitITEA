@@ -12,7 +12,7 @@ def string_processing(text, *args, **kwargs):
             if space in whitespace:
                 raise ValueError()
 
-    except Exception as error:
+    except ValueError as error:
         result = 'Ошибка.Incorrect value'
     return result
 
