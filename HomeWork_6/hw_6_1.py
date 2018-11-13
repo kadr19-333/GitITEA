@@ -6,17 +6,21 @@ from string import whitespace
 
 
 def string_processing(text, *args, **kwargs):
-    try:
-        result = text.upper()
-        for space in text:
-            if space in whitespace:
-                raise ValueError()
-
-    except ValueError as error:
-        result = 'Ошибка.Incorrect value'
+    result = text.upper()
+    for space in text:
+        if space in whitespace:
+            raise ValueError('Вы ввели неподходящий символ!')
+    print(result)
     return result
 
 
 if __name__ == "__main__":
-    text = input('Input your text: ')
-    print(string_processing(text))
+    try:
+        string_processing(text = 'kdjfj ldjkffkf')
+    except ValueError as error:
+        print('Ошибка!!! - ', error)
+
+
+
+
+
